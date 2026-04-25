@@ -79,7 +79,7 @@ st.markdown("""
     .main-title {
         font-family: 'Courier New', Courier, monospace;
         color: #00f2ff;
-        font-size: 50px;
+        font-size: 100x;
         font-weight: bold;
         text-align: center;
         text-shadow: 2px 2px 10px #00f2ff;
