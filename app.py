@@ -87,7 +87,7 @@ with col1:
     input_mag = st.slider("Absolute Magnitude", -8.0, 15.0, 4.8, help="How intrinsically bright the star is. Lower numbers are brighter.")
 
 with col2:
-    st.subheader("🧠 AI Inference")
+    st.subheader("AI Inference")
     # Suppress sklearn warning by passing a DataFrame with valid feature names
     input_df = pd.DataFrame([[input_mag, input_color]], columns=['abs_mag', 'bp_rp'])
     new_sample = scaler.transform(input_df)
