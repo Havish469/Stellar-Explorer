@@ -121,7 +121,6 @@ with col3:
     fig.add_trace(go.Scatter(
         x=df['bp_rp'], y=df['abs_mag'],
         mode='markers',
-        marker=dict(color='#8b9bb4', size=8, opacity=0.5),
         name='Catalog Stars',
         hoverinfo='skip'
     ))
