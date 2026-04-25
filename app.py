@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import io
 
 # --- Page Branding ---
-st.set_page_config(page_title="NovaClass AI | Stellar Observatory", layout="wide", page_icon="🔭")
+st.set_page_config(page_title="NovaClass  | Stellar Observatory", layout="wide", page_icon="🔭")
 
 # Custom CSS to make it look like a high-end dashboard
 st.markdown("""
