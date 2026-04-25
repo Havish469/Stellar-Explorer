@@ -74,19 +74,9 @@ model = MLPClassifier(hidden_layer_sizes=(32, 16), max_iter=2000, random_state=4
 model.fit(X_scaled, y)
 
 # --- Header ---
-st.markdown("""
-    <style>
-    .main-title {
-        font-family: 'Courier New', Courier, monospace;
-        color: #00f2ff;
-        font-size: 100x;
-        font-weight: bold;
-        text-align: center;
-        text-shadow: 2px 2px 10px #00f2ff;
-        margin-bottom: 0px;
-    }
-    </style>
-    """, unsafe_allow_html=True)
+st.title("NovaClass: Deep Space Classifier")
+st.markdown("<p style='color: #8b9bb4; font-size: 1.1rem; margin-bottom: 2rem;'>Leveraging Multi-Layer Perceptrons to categorize Gaia DR3 Stellar Observations.</p>", unsafe_allow_html=True)
+
 
 # 2. Display the glowing title
 st.markdown('<p class="main-title">NovaClass: Deep Space Classifier</p>', unsafe_allow_html=True)
