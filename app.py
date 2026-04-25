@@ -42,7 +42,7 @@ model = MLPClassifier(hidden_layer_sizes=(32, 16), max_iter=2000, random_state=4
 model.fit(X_scaled, y)
 
 # --- Layout ---
-st.title("🔭 NovaClass AI: Deep Space Classifier")
+st.title("🔭 NovaClass: Deep Space Classifier")
 st.write("Leveraging Multi-Layer Perceptrons to categorize Gaia DR3 Stellar Observations.")
 
 col1, col2, col3 = st.columns([1, 1, 2])
