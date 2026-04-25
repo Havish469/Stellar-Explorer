@@ -81,7 +81,7 @@ st.markdown("<p style='color: #8b9bb4; font-size: 1.1rem; margin-bottom: 2rem;'>
 col1, col2, col3 = st.columns([1, 1, 1.8], gap="large")
 
 with col1:
-    st.subheader("🎛️ Sensor Inputs")
+    st.subheader(" Sensor Inputs")
     st.write("Adjust the stellar parameters below:")
     input_color = st.slider("Color Index (Bp-Rp)", -0.5, 4.0, 0.5, help="Difference between blue and red light. Higher is redder/cooler.")
     input_mag = st.slider("Absolute Magnitude", -8.0, 15.0, 4.8, help="How intrinsically bright the star is. Lower numbers are brighter.")
@@ -112,7 +112,7 @@ with col2:
         st.progress(prob_val)
 
 with col3:
-    st.subheader("📊 Gaia H-R Diagram")
+    st.subheader(" Gaia H-R Diagram")
     
     # Modern Plotly Interactive Graph
     fig = go.Figure()
